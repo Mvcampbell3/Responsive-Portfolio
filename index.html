@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--Use for sticky footer, height: calc(100vh - height of footer)-->
+        <header>
+            <div class="main-header">
+                <h1 class="name">Michael Campbell</h1>
+                <nav>
+                    <ul>
+                        <li class="navli" id="index" onclick="primeFade()">About</li>
+                        <li class="navli middleA" id="portfolio" onclick="primeFade()">Portfolio</li>
+                        <li class="navli" id="contact" onclick="primeFade()">Contact</li>
+                    </ul>
+                </nav>
+                <div class="tab-nav" id="tab-nav"></div>
+            </div>
+        </header>
+
+        <div class="clearfix"></div>
+
+        <div class="small-nav" id="small-nav">
+            <ul id="hideMe">
+                <li><a class="smallA" href="index.html">About</a></li>
+                <li><a class="smallA" href="portfolio.html">Portfolio</a></li>
+                <li><a class="smallA" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <!--Setting width of content-->
+
+            <div class="inside">
+                <!--Setting inside paddind from width-->
+
+                <div class="topSection">
+                    <h2 class="about">About Me</h2>
+                </div>
+                <img class="imageBox" src="assets/images/chameleon.jpeg" alt="Chameleon">
+
+                <p class="content">Welcome to my Website! I am a very motivated and hardworking student of web design.
+                    I am looking forward to being able to create internet destinations that really grab people's
+                    attention. I also greatly enjoy the technical side of web design. Coding programs and applications
+                    that are useful for many people will be very rewarding.</p>
+
+                <p class="content">My past experience in various fields will be very helpful for me moving forward into
+                    this field. I have tons of experience in team-oriented environments due to my time both playing
+                    baseball at the college and professional level, and coaching at the highschool level. I have a lot
+                    of experience working in the customer satisfaction market, mainly the service industry. Getting
+                    instructions and turning them into finished products will not be a new skill for me.</p>
+
+                <p class="content">Finally, my personal life is a great source of motivation and happiness for me. I
+                    have a four year old son. He is a crazy ball of energy who needs someone he can look up to and
+                    respect. I am very motivated to be that person for him. This path that I am on is an exciting one,
+                    a challenging one, and one I am unwilling to let pass without my full efforts to succeed.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="topFootLine"></div>
+        <p class="footContent">Copyright &copy; 2018</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
